@@ -1,0 +1,141 @@
+body{
+	margin: 0 0;
+}
+.nav{
+	text-align: center;
+	font-size: 40px;
+}
+.nav h1{
+	margin: 0 5px;
+	font-family: 'Vidaloka', serif;
+
+}
+.bar{
+	height: 8px;
+	width: 96%;
+	background-color: #FEF200;
+	margin-left: 2%;
+}
+.mid a{
+	text-decoration: none;
+	color: white;
+}
+
+.mid{
+	display: inline-block;
+	width: 100%;
+	
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.box1{
+	width: 26%;
+	height: 550px;
+	background-image: url(images/wed.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;	display: inline-block;
+	margin-left: 2%;
+	position: relative;
+	
+}
+
+.box1 h1{
+	position: absolute;
+	bottom: 8px;
+	left: 6px;
+	background-color: black;
+}
+
+.box1 a:hover{
+	color: #FEF200;
+}
+
+.box2{
+	width: 26%;
+	height: 550px;
+	background-image: url(images/jup.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;	display: inline-block;
+	margin-left: 2%;
+	position: relative;
+}
+
+.box2 h1{
+	position: absolute;
+	bottom: 8px;
+	left: 6px;
+	background-color: black;
+}
+
+.box2 a:hover{
+	color: #FEF200;
+}
+
+.box3{
+	width: 39%;
+	height: 550px;
+	background-image: url(images/juul.jpeg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;	display: inline-block;
+	margin-left: 2%;
+	position: relative;
+}
+.box3 h1{
+	position: absolute;
+	bottom: 8px;
+	left: 6px;
+	background-color: black;
+}
+.box3 a:hover{
+	color: #FEF200;
+}
+
+
+@media screen and (max-width: 800px) {
+	.box1{
+		width: 31%;
+		margin-left: 1%;
+	}
+	.box2{
+		width: 31%;
+		margin-left: 1%;
+	}
+	.box3{
+		width: 32%;
+		margin-left: 1%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.mid{
+	display: block;
+	}
+	.box1{
+		width: 96%;
+		margin-left: 2%;
+		height: 400px;
+		margin-bottom: 3px;
+	}
+	.box2{
+		width: 96%;
+		margin-left: 2%;
+		height: 400px;
+		margin-bottom: 3px;
+
+	}
+	.box3{
+		width: 96%;
+		margin-left: 2%;
+		height: 400px;
+		margin-bottom: 3px;
+
+	}
+}
+
