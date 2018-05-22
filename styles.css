@@ -46,6 +46,8 @@ body{
 	position: absolute;
 	bottom: 8px;
 	left: 6px;
+}
+.box1 span{
 	background-color: black;
 }
 
@@ -69,6 +71,9 @@ body{
 	position: absolute;
 	bottom: 8px;
 	left: 6px;
+}
+
+.box2 span{
 	background-color: black;
 }
 
@@ -91,6 +96,8 @@ body{
 	position: absolute;
 	bottom: 8px;
 	left: 6px;
+}
+.box3 span{
 	background-color: black;
 }
 .box3 a:hover{
